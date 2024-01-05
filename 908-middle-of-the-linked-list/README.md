@@ -26,10 +26,3 @@
 	<li>The number of nodes in the list is in the range <code>[1, 100]</code>.</li>
 	<li><code>1 &lt;= Node.val &lt;= 100</code></li>
 </ul>
-<p>&nbsp;</p>
-<p><strong>Problem solving notes:</strong></p>
-<p>
-用2個指針只遍歷一次就可以找到中間節點。一個指針每次移動2步，另外一個指針每次移動1步，當快的指針到達終點的時候，慢的指標就是中間節點。
-
-A better solution will be using fast and slow pointers, we create two pointers called slow and fast, for each move the fast pointer will go 2 steps and the slow pointer will go 1 step, the iteration will stop until the fast pointer reach to the end then the slow pointer is pointing the node that we want to return.
-</p>
