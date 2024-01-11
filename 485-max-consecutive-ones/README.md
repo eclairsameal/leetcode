@@ -23,3 +23,8 @@
 	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
 	<li><code>nums[i]</code> is either <code>0</code> or <code>1</code>.</li>
 </ul>
+
+
+## 解題思路
+
+數組中的數字只有 0 或 1 ，那麼連續的1加總跟個數相等，所以可以計算加總，通過加上num，再乘以num 來計算，如果當前數字是0， 那麼sum 就被重置為0，如果不是0的話更新站存結果的變數
