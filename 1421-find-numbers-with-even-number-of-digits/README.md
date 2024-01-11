@@ -31,3 +31,7 @@ Only 1771 contains an even number of digits.
 	<li><code>1 &lt;= nums.length &lt;= 500</code></li>
 	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
 </ul>
+
+### 參考：
+
+https://github.com/grandyang/leetcode/issues/1295
