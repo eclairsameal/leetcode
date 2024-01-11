@@ -46,3 +46,6 @@ Note that because m = 0, there are no elements in nums1. The 0 is only there to 
 
 <p>&nbsp;</p>
 <p><strong>Follow up: </strong>Can you come up with an algorithm that runs in <code>O(m + n)</code> time?</p>
+
+### 參考：
+https://anj910.medium.com/leetcode-88-merge-sorted-array-%E4%B8%AD%E6%96%87-c0fac1a22343
