@@ -3,6 +3,6 @@ class Solution:
         for n in arr:
             if n*2 in arr and n != 0: 
                 return True
-            elif arr.count(0) >= 2:
+            elif arr.count(0) >= 2: # [0,0,0,0] 
                 return True
         return False
