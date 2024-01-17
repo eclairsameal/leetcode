@@ -30,3 +30,27 @@
 	<li><code>2 &lt;= arr.length &lt;= 500</code></li>
 	<li><code>-10<sup>3</sup> &lt;= arr[i] &lt;= 10<sup>3</sup></code></li>
 </ul>
+
+
+## 說明：
+arr 陣列裡有存在 arr 陣列裡某個值的倍數值嗎。
+
+## 解決方案：python - in
+* 注意：關於0要特別處裡
+```python
+class Solution:
+    def checkIfExist(self, arr: List[int]) -> bool:
+        for n in arr:
+            if n*2 in arr and n != 0: 
+                return True
+            elif arr.count(0) >= 2: # [0,0,0,0] 
+          # elif arr.count(0) == 2: # [0,0,0,0] -> error
+                return True
+        return False
+```
+### 解決方案：hash table - set  
+我們也可以使用hash table資料結構使用 Set 物件或陣列來解決這個問題。
+
+1. 迭代數組並檢查數組中的元素乘以 2 或除以 2 是否等於物件中的元素Set。
+2. 如果存在則回傳true
+3. 如果不存在，則將該元素新增至 Set 物件。
