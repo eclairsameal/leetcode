@@ -52,7 +52,3 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 	<li><code>-100 &lt;= nums[i] &lt;= 100</code></li>
 	<li><code>nums</code> is sorted in <strong>non-decreasing</strong> order.</li>
 </ul>
-
-### 題目大意：
-給定一個排序數組 nums ，你刪除重複出現的元素，使得每個元素只出現一次，返回移除後數組的新長度。
-不要使用額外的數組空間，你必須在原地修改輸入數組並使用O（1）額外空間的條件下完成。
