@@ -25,3 +25,18 @@
 	<li><code>1 &lt;= nums.length &lt;= 5000</code></li>
 	<li><code>0 &lt;= nums[i] &lt;= 5000</code></li>
 </ul>
+
+## 題目大意:
+給定一個整數數組 nums，移動數組所有的偶數到數組的頭，然後移動所有奇數到數組的尾。
+
+## 解題思路：
+
+用 2 個指標 forward 跟 after 指向頭跟尾。
+
+當 forward 等於奇數同時 after等於偶數時交換數值。
+
+當 forward 等於偶數時 forward 加一。
+
+當 after 等於奇數時 after 減一。
+
+停止條件： forward >= after時
