@@ -19,3 +19,12 @@
 
 <p>&nbsp;</p>
 <p><strong>Follow up:</strong> Could you do it without extra space and in <code>O(n)</code> runtime? You may assume the returned list does not count as extra space.</p>
+
+
+## 解題
+
+題目要求不能用多的空間，所以只能利用現有數組的空間，正負號剛好可以用來代表存在跟不存在，所以當遊歷數組時，數組裡數字對應的index的值標記為負數。
+最後再回傳數組中為正數的index+1的值，就可以知道哪些數字沒出現過。
+
+## 參考
+https://github.com/doocs/leetcode/tree/main/solution/0400-0499/0448.Find%20All%20Numbers%20Disappeared%20in%20an%20Array
